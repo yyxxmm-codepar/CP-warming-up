@@ -1,0 +1,78 @@
+@charset "utf-8";
+@import "variables";
+
+$typography-styles: (
+    14: ($txt-font-size-14),
+    16: ($txt-font-size-16),
+    18: ($txt-font-size-18),
+    20: ($txt-font-size-20),
+    24: ($txt-font-size-24),
+    26: ($txt-font-size-26),
+    32: ($txt-font-size-32),
+    40: ($txt-font-size-40),
+    50: ($txt-font-size-50),
+    70: ($txt-font-size-70),
+    90: ($txt-font-size-90)
+);
+@mixin apply-typography-style($font-size) {
+    font-size: $font-size;
+}
+@mixin txt($size) {
+    @if map-has-key($typography-styles, $size) {
+        $values: map-get($typography-styles, $size);
+        @include apply-typography-style(nth($values, 1));
+    } @else { // $size가 맵에 없는 경우 기본값으로 16 적용
+        $values: map-get($typography-styles, 16);
+        @include apply-typography-style(nth($values, 1));
+    }
+}
+
+@mixin clearfix {
+    content:""; 
+    display:block; 
+    clear:both; 
+}
+@mixin pos-center( $top:50%, $left:50%, $posX:-50%, $posY:-50% ) {
+    position:absolute;
+    top: $top;
+    left: $left;
+    transform:translate($posX,$posY);
+}
+@mixin pos-bottom( $bottom:0, $left:50%, $posX:-50%) {
+    position:absolute;
+    bottom: $bottom;
+    left: $left;
+    transform:translate($posX);
+}
+@mixin pos-left( $top:50%, $left:0, $posY:-50% ) {
+    position:absolute;
+    top: $top;
+    left: $left;
+    transform:translate($posY);
+}
+@mixin pos-right( $top:50%, $right:50%, $posY:-50% ) {
+    position:absolute;
+    top: $top;
+    right: $right;
+    transform:translate($posY);
+}
+@mixin btns( $bg:null, $c:null ) {
+    background-color:$bg;
+    color:$c;
+}
+@mixin icons( $img:null, $pos:top center, $size:null, $repeat:no-repeat ) {
+    background-image:$img; 
+    background-position:$pos;
+    background-size:$size;
+    background-repeat:$repeat;
+}
+@mixin tablet {
+	@media all and (max-width: #{$tablet}) {
+		@content;
+	}
+}
+@mixin mobile {
+	@media all and (max-width: #{$mobile}) {
+		@content;
+	}
+}

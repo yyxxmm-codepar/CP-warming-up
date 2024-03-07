@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap'); /* Lora */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap'); /* Roboto */
+
+html,body,div,a,ul,ol,li,form,select,option,img,strong,h1,h2,h3,h4,label,input,span,p,section,article,em,i,header,footer,nav,dt,dd,dl,b { margin:0; padding:0; box-sizing:border-box; }
+html { font-size:10px; }
+body { overflow:hidden auto; background-color:var(--color-bg); color:var(--color-charcoal); line-height:1.5; font-family:var(--font-lora); font-size:1.6rem; font-weight:var(--font-regular); word-wrap:break-word; word-break:keep-all; }
+header,section,nav { display:block; }
+ul,ol { list-style:none; }
+a:link,
+a:visited { color:var(--color-charcoal); text-decoration:none; }
+a:active, 
+a:hover, 
+a:focus { color:var(--color-charcoal); text-decoration:none; }
+button { border:none; background-color:unset; }
+img { border:none; }
+i { font-style:normal; }
+:root {
+	--color-bg:#FEF8EC;
+	--color-main:#3A5065; 
+	--color-sub:#E7D5AD;
+	--color-black:#000000;
+	--color-charcoal:#383838;
+	--color-gray:#D3D3D3;
+	--color-white:#FFFFFF;
+	--font-lora:"Lora",serif;
+	--font-roboto:"Roboto",sans-serif;
+	--font-large:1.8rem;
+	--font-medium:1.6rem;
+	--font-small:1.4rem;
+	--font-regular:400;
+	--font-medium:500;
+	--font-bold:700;
+	--font-black:900;
+}

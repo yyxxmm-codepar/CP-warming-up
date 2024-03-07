@@ -1,0 +1,75 @@
+@charset "utf-8";
+@import "variables","mixins";
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap'); /* Lora */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap'); /* Roboto */
+
+html,
+body,
+div,
+a,
+ul,
+ol,
+li,
+form,
+select,
+option,
+img,
+strong,
+h1,
+h2,
+h3,
+h4,
+label,
+input,
+span,
+p,
+section,
+article,
+em,
+i,
+header,
+footer,
+nav,
+dt,
+dd,
+dl,
+b { 
+	margin:0; 
+	padding:0; 
+	box-sizing:border-box; 
+}
+html { font-size:10px; }
+body { 
+	overflow:hidden auto; 
+	background-color:$color-bg; 
+	color:$color-charcoal; 
+	line-height:1.5; 
+	font-family:$font-lora; 
+	@include txt(16);
+	font-weight:$font-regular; 
+	word-wrap:break-word; 
+	word-break:keep-all; 
+}
+header,
+section,
+nav { display:block; }
+ul,
+ol { list-style:none; }
+a:link,
+a:visited { 
+	color:$color-charcoal; 
+	text-decoration:none; 
+}
+a:active, 
+a:hover, 
+a:focus { 
+	color:$color-charcoal; 
+	text-decoration:none; 
+}
+button { 
+	border:none; 
+	background-color:unset; 
+}
+img { border:none; }
+i { font-style:normal; }

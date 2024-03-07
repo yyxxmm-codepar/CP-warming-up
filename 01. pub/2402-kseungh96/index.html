@@ -29,49 +29,50 @@
 			</div>
 			<div class="navWrap">
 				<nav id="nav">
-					<ul class="depth01">
-						<li><a href="#none" title="바로가기">Home</a></li>
+					<ul data-value="depth01">
+						<li><a href="#none">Home</a></li>
 						<li>
 							<a href="javascript:void(0);">About Us</a>
-							<ul class="depth02" data-value="depth02">
-								<li><a href="#none" title="바로가기">depth02</a></li>
-								<li><a href="#none" title="바로가기">depth02</a></li>
-								<li><a href="#none" title="바로가기">depth02</a></li>
+							<ul data-value="depth02">
+								<li><a href="#none">depth02</a></li>
+								<li><a href="#none">depth02</a></li>
+								<li><a href="#none">depth02</a></li>
 							</ul>
 						</li>
 						<li>
 							<a href="javascript:void(0);">Destination</a>
-							<ul class="depth02" data-value="depth02">
-								<li><a href="#none" title="바로가기">depth02</a></li>
-								<li><a href="#none" title="바로가기">depth02</a></li>
-								<li><a href="#none" title="바로가기">depth02</a></li>
-								<li><a href="#none" title="바로가기">depth02</a></li>
-								<li><a href="#none" title="바로가기">depth02</a></li>
+							<ul data-value="depth02">
+								<li><a href="#none">depth02</a></li>
+								<li><a href="#none">depth02</a></li>
+								<li><a href="#none">depth02</a></li>
+								<li><a href="#none">depth02</a></li>
+								<li><a href="#none">depth02</a></li>
 							</ul>
 						</li>
 						<li>
 							<a href="javascript:void(0);">Activities</a>
-							<ul class="depth02" data-value="depth02">
-								<li><a href="#none" title="바로가기">depth02</a></li>
-								<li><a href="#none" title="바로가기">depth02</a></li>
-								<li><a href="#none" title="바로가기">depth02</a></li>
-								<li><a href="#none" title="바로가기">depth02</a></li>
+							<ul data-value="depth02">
+								<li><a href="#none">depth02</a></li>
+								<li><a href="#none">depth02</a></li>
+								<li><a href="#none">depth02</a></li>
+								<li><a href="#none">depth02</a></li>
 							</ul>
 						</li>
-						<li><a href="#none" title="바로가기">Blog</a></li>
-						<li><a href="#none" title="바로가기">Contact Us</a></li>
+						<li><a href="#none">Blog</a></li>
+						<li><a href="#none">Contact Us</a></li>
 					</ul>
 				</nav>
 				<div class="search">
-					<a href="#none" title="검색창 열기"><span class="blind">검색 아이콘</span></a>
+					<a href="#none" title="검색창 열기" onclick="openModal('modal01')"><span class="blind">검색 아이콘</span></a>
 				</div>
 			</div>
 		</div>
 	</header>
-	<div id="container" class="container">
+	<div id="container" class="container"> 
 
 		<!-- slider -->
 		<section class="sliderWrap action">
+			<h2 class="blind">배너</h2>
 			<div class="swiper">
 				<div class="swiper-wrapper">
 					<div class="swiper-slide slide01">
@@ -142,7 +143,7 @@
 				</div>
 				<div class="welTxt">
 					<b>Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</b>
-					<span>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor,nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos auris in erat justo.</span>
+					<span>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos auris in erat justo.</span>
 					<div class="btnWrap left">
 						<a href="#none" class="btnMd btnNv btnBor" title="About Us 페이지로 이동">Read More</a>
 					</div>
@@ -157,111 +158,121 @@
 				<div class="secTitWrap">
 					<h2 class="txtWh">Featured Packages</h2>
 				</div>
-				<div class="contBoxWrap">
+				<div class="boardBoxWrap">
 					<ul>
 						<li>
-							<a href="#none" title="Mustang Tiji Festival Trek 페이지로 이동">
-								<div class="imgWrap"><img src="./assets/images/img_contbox_01.png" alt=""></div>
-								<div class="txtWrap">
-									<div class="exTxt">
-										<div class="txtSm">Duration: 18 days</div>
-										<b><i>$</i>1200.00</b>
+							<div class="contWrap">
+								<a href="#none" title="Mustang Tiji Festival Trek 페이지로 이동">
+									<div class="imgWrap"><img src="./assets/images/img_contbox_01.png" alt=""></div>
+									<div class="txtWrap">
+										<div class="exTxt">
+											<div class="txtSm">Duration: 18 days</div>
+											<b><i>$</i>1200.00</b>
+										</div>
+										<div class="tit04">Mustang Tiji Festival Trek</div>
+										<span>Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis.</span>
 									</div>
-									<div class="tit04">Mustang Tiji Festival Trek</div>
-									<span>Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis.</span>
-								</div>
-							</a>
+								</a>
+							</div>
+							<div class="btnWrap left">
+								<a href="#none" class="btnMd btnNv">READ MORE</a>
+							</div>
+						</li> 
+						<li>
+							<div class="contWrap">
+								<a href="#none" title="Nepal Adventure Tour 페이지로 이동">
+									<div class="imgWrap"><img src="./assets/images/img_contbox_02.png" alt=""></div>
+									<div class="txtWrap">
+										<div class="exTxt">
+											<div class="txtSm">Duration: 18 days</div>
+											<b><i>$</i>1200.00</b>
+										</div>
+										<div class="tit04">Nepal Adventure Tour</div>
+										<span>Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis.</span>
+									</div>
+								</a>
+							</div>
 							<div class="btnWrap left">
 								<a href="#none" class="btnMd btnNv">READ MORE</a>
 							</div>
 						</li>
 						<li>
-							<a href="#none" title="Nepal Adventure Tour 페이지로 이동">
-								<div class="imgWrap"><img src="./assets/images/img_contbox_02.png" alt=""></div>
-								<div class="txtWrap">
-									<div class="exTxt">
-										<div class="txtSm">Duration: 18 days</div>
-										<b><i>$</i>1200.00</b>
+							<div class="contWrap">
+								<a href="#none" title="Annapurna Panaroma Trek 페이지로 이동">
+									<div class="imgWrap"><img src="./assets/images/img_contbox_03.png" alt=""></div>
+									<div class="txtWrap">
+										<div class="exTxt">
+											<div class="txtSm">Duration: 18 days</div>
+											<b><i>$</i>1200.00</b>
+										</div>
+										<div class="tit04">Annapurna Panaroma Trek</div>
+										<span>Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis.</span>
 									</div>
-									<div class="tit04">Nepal Adventure Tour</div>
-									<span>Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis.</span>
-								</div>
-							</a>
+								</a>
+							</div>
 							<div class="btnWrap left">
 								<a href="#none" class="btnMd btnNv">READ MORE</a>
 							</div>
 						</li>
 						<li>
-							<a href="#none" title="Annapurna Panaroma Trek 페이지로 이동">
-								<div class="imgWrap"><img src="./assets/images/img_contbox_03.png" alt=""></div>
-								<div class="txtWrap">
-									<div class="exTxt">
-										<div class="txtSm">Duration: 18 days</div>
-										<b><i>$</i>1200.00</b>
+							<div class="contWrap">
+								<a href="#none" title="Manaslu Circuit Trek 페이지로 이동">
+									<div class="imgWrap"><img src="./assets/images/img_contbox_04.png" alt=""></div>
+									<div class="txtWrap">
+										<div class="exTxt">
+											<div class="txtSm">Duration: 18 days</div>
+											<b><i>$</i>1200.00</b>
+										</div>
+										<div class="tit04">Manaslu Circuit Trek</div>
+										<span>Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis.</span>
 									</div>
-									<div class="tit04">Annapurna Panaroma Trek</div>
-									<span>Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis.</span>
-								</div>
-							</a>
+								</a>
+							</div>
 							<div class="btnWrap left">
 								<a href="#none" class="btnMd btnNv">READ MORE</a>
 							</div>
 						</li>
 						<li>
-							<a href="#none" title="Manaslu Circuit Trek 페이지로 이동">
-								<div class="imgWrap"><img src="./assets/images/img_contbox_04.png" alt=""></div>
-								<div class="txtWrap">
-									<div class="exTxt">
-										<div class="txtSm">Duration: 18 days</div>
-										<b><i>$</i>1200.00</b>
+							<div class="contWrap">
+								<a href="#none" title="Nepal Adventure Tour 페이지로 이동">
+									<div class="imgWrap"><img src="./assets/images/img_contbox_05.png" alt=""></div>
+									<div class="txtWrap">
+										<div class="exTxt">
+											<div class="txtSm">Duration: 18 days</div>
+											<b><i>$</i>1200.00</b>
+										</div>
+										<div class="tit04">Nepal Adventure Tour</div>
+										<span>Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis.</span>
 									</div>
-									<div class="tit04">Manaslu Circuit Trek</div>
-									<span>Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis.</span>
-								</div>
-							</a>
+								</a>
+							</div>
 							<div class="btnWrap left">
 								<a href="#none" class="btnMd btnNv">READ MORE</a>
 							</div>
 						</li>
 						<li>
-							<a href="#none" title="Nepal Adventure Tour 페이지로 이동">
-								<div class="imgWrap"><img src="./assets/images/img_contbox_05.png" alt=""></div>
-								<div class="txtWrap">
-									<div class="exTxt">
-										<div class="txtSm">Duration: 18 days</div>
-										<b><i>$</i>1200.00</b>
+							<div class="contWrap">
+								<a href="#none" title="Glimpse of Bhutan Tour 페이지로 이동">
+									<div class="imgWrap"><img src="./assets/images/img_contbox_03.png" alt=""></div>
+									<div class="txtWrap">
+										<div class="exTxt">
+											<div class="txtSm">Duration: 18 days</div>
+											<b><i>$</i>1200.00</b>
+										</div>
+										<div class="tit04">Glimpse of Bhutan Tour</div>
+										<span>Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis.</span>
 									</div>
-									<div class="tit04">Nepal Adventure Tour</div>
-									<span>Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis.</span>
-								</div>
-							</a>
-							<div class="btnWrap left">
-								<a href="#none" class="btnMd btnNv">READ MORE</a>
+								</a>
 							</div>
-						</li>
-						<li>
-							<a href="#none" title="Glimpse of Bhutan Tour 페이지로 이동">
-								<div class="imgWrap"><img src="./assets/images/img_contbox_03.png" alt=""></div>
-								<div class="txtWrap">
-									<div class="exTxt">
-										<div class="txtSm">Duration: 18 days</div>
-										<b><i>$</i>1200.00</b>
-									</div>
-									<div class="tit04">Glimpse of Bhutan Tour</div>
-									<span>Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis.</span>
-								</div>
-							</a>
 							<div class="btnWrap left">
 								<a href="#none" class="btnMd btnNv">READ MORE</a>
 							</div>
 						</li>
 					</ul>
 				</div>
-			</div>
-			<!-- // Featured Packages -->
+				<!-- // Featured Packages -->
 
-			<!-- Destination -->
-			<div class="inner">
+				<!-- Destination -->
 				<div class="secTitWrap">
 					<h2 class="txtWh">Destination</h2>
 				</div>
@@ -360,6 +371,7 @@
 				<div class="secTitWrap">
 					<h2 class="txtWh">Recent Reviews</h2>
 				</div>
+
 				<div class="reviewContWrap">
 					<ol>
 						<li class="active"><a href="#none"><img src="./assets/images/img_review_01.png" alt="첫번째 리뷰"></a></li>
@@ -370,10 +382,10 @@
 					</ol>
 					<ul>
 						<li class="active">
-							<span>&#147; <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem qui bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odioodio. ” Sed non mauris vitae erat consequat auctor eu in elit.</p> &#148;</span>
+							<div class="txtWrap">&#147; <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem qui bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odioodio. ” Sed non mauris vitae erat consequat auctor eu in elit.</p> &#148;</div>
 							<div class="starWrap">
 								<div class="starBg" aria-label="평점 별 5개 중 5개">
-									<div class="star" style="width:100%;"></div><!---[D] width 값으로 별점 조정 -->
+									<div class="star" style="width:100%;"></div><!-- [D] width 값으로 별점 조정 -->
 								</div>
 								<div class="num"><strong class="current">5</strong>/<span class="tot">5</span></div>
 							</div>
@@ -381,10 +393,10 @@
 							<div class="country"><span>Swizerland</span></div>
 						</li>
 						<li>
-							<span>&#147; <p>2 Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem qui bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odioodio. ” Sed non mauris vitae erat consequat auctor eu in elit.</p> &#148;</span>
+							<div class="txtWrap">&#147; <p>2 Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem qui bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odioodio. ” Sed non mauris vitae erat consequat auctor eu in elit.</p> &#148;</div>
 							<div class="starWrap">
 								<div class="starBg" aria-label="평점 별 5개 중 4개">
-									<div class="star" style="width:80%;"></div><!---[D] width 값으로 별점 조정 -->
+									<div class="star" style="width:80%;"></div><!-- [D] width 값으로 별점 조정 -->
 								</div>
 								<div class="num"><strong class="current">4</strong>/<span class="tot">5</span></div>
 							</div>
@@ -392,10 +404,10 @@
 							<div class="country"><span>Swizerland</span></div>
 						</li>
 						<li>
-							<span>&#147; <p>3 Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem qui bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odioodio. ” Sed non mauris vitae erat consequat auctor eu in elit.</p> &#148;</span>
+							<div class="txtWrap">&#147; <p>3 Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem qui bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odioodio. ” Sed non mauris vitae erat consequat auctor eu in elit.</p> &#148;</div>
 							<div class="starWrap">
 								<div class="starBg" aria-label="평점 별 5개 중 4.5개">
-									<div class="star" style="width:90%;"></div><!---[D] width 값으로 별점 조정 -->
+									<div class="star" style="width:90%;"></div><!-- [D] width 값으로 별점 조정 -->
 								</div>
 								<div class="num"><strong class="current">4.5</strong>/<span class="tot">5</span></div>
 							</div>
@@ -403,10 +415,10 @@
 							<div class="country"><span>Swizerland</span></div>
 						</li>
 						<li>
-							<span>&#147; <p>4 Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem qui bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odioodio. ” Sed non mauris vitae erat consequat auctor eu in elit.</p> &#148;</span>
+							<div class="txtWrap">&#147; <p>4 Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem qui bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odioodio. ” Sed non mauris vitae erat consequat auctor eu in elit.</p> &#148;</div>
 							<div class="starWrap">
 								<div class="starBg" aria-label="평점 별 5개 중 5개">
-									<div class="star" style="width:100%;"></div><!---[D] width 값으로 별점 조정 -->
+									<div class="star" style="width:100%;"></div><!-- [D] width 값으로 별점 조정 -->
 								</div>
 								<div class="num"><strong class="current">5</strong>/<span class="tot">5</span></div>
 							</div>
@@ -414,10 +426,10 @@
 							<div class="country"><span>Swizerland</span></div>
 						</li>
 						<li>
-							<span>&#147; <p>5 Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem qui bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odioodio. ” Sed non mauris vitae erat consequat auctor eu in elit.</p> &#148;</span>
+							<div class="txtWrap">&#147; <p>5 Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem qui bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odioodio. ” Sed non mauris vitae erat consequat auctor eu in elit.</p> &#148;</div>
 							<div class="starWrap">
 								<div class="starBg" aria-label="평점 별 5개 중 4.5개">
-									<div class="star" style="width:90%;"></div><!---[D] width 값으로 별점 조정 -->
+									<div class="star" style="width:90%;"></div><!-- [D] width 값으로 별점 조정 -->
 								</div>
 								<div class="num"><strong class="current">4.5</strong>/<span class="tot">5</span></div>
 							</div>
@@ -426,6 +438,7 @@
 						</li>
 					</ul>
 				</div>
+
 			</div>
 		</section>
 		<!-- // Recent Reviews -->
@@ -448,14 +461,14 @@
 			</div>
 		</section>
 		<!-- // Recommended By -->
-
+		
 		<!-- Recent Blog Posts -->
 		<section class="blogWrap action">
 			<div class="inner">
 				<div class="secTitWrap">
 					<h2>Recent Blog Posts</h2>
 				</div>
-				<div class="contBoxWrap">
+				<div class="boardBoxWrap">
 					<ul>
 						<li>
 							<a href="#none" title="6 Top Trekking Peaks in Nepal 페이지로 이동">
@@ -464,12 +477,10 @@
 									<div class="tit04">6 Top Trekking Peaks in Nepal</div>
 									<dl>
 										<dt>Posted</dt>
-										<dd class="by">by <span>admin</span></dd>
-										<dd class="date"><span>20 October 2016</span></dd>
+										<dd class="by">by <p>admin</p></dd>
+										<dd class="date"><p>20 October 2016</p></dd>
 									</dl>
-									<span>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis
-										bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id
-										elit.</span>
+									<span>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</span>
 								</div>
 							</a>
 						</li>
@@ -480,12 +491,10 @@
 									<div class="tit04">Bird Watching in Nepal: A compelling journey</div>
 									<dl>
 										<dt>Posted</dt>
-										<dd class="by">by <span>admin</span></dd>
-										<dd class="date"><span>20 October 2016</span></dd>
+										<dd class="by">by <p>admin</p></dd>
+										<dd class="date"><p>20 October 2016</p></dd>
 									</dl>
-									<span>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis
-										bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id
-										elit.</span>
+									<span>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</span>
 								</div>
 							</a>
 						</li>
@@ -496,12 +505,10 @@
 									<div class="tit04">Top 10 Treks in Nepal - Best Of Trekking in Nepal</div>
 									<dl>
 										<dt>Posted</dt>
-										<dd class="by">by <span>admin</span></dd>
-										<dd class="date"><span>20 October 2016</span></dd>
+										<dd class="by">by <p>admin</p></dd>
+										<dd class="date"><p>20 October 2016</p></dd>
 									</dl>
-									<span>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis
-										bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id
-										elit.</span>
+									<span>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</span>
 								</div>
 							</a>
 						</li>
@@ -522,8 +529,7 @@
 						<div class="inputWrap">
 							<div class="tyEmail">
 								<label for="email01" class="blind">이메일</label>
-								<input type="text" id="email01" class="inpEmail" name="email01" value=""
-									placeholder="Enter Your Email">
+								<input type="text" id="email01" class="inpEmail" name="email01" value="" placeholder="Enter Your Email">
 								<button type="button" class="bntSm btnNv">SUBSCRIBE!</button>
 							</div>
 						</div>
@@ -540,60 +546,56 @@
 	<footer>
 		<div class="inner">
 			<div class="footerContWrap">
-				<ul>
-					<li>
-						<div>Quick Link</div>
-						<ul>
-							<li><a href="#none" title="바로가기">Company</a></li>
-							<li><a href="#none" title="바로가기">Our Team</a></li>
-							<li><a href="#none" title="바로가기">Testimonials</a></li>
-							<li><a href="#none" title="바로가기">Contact Us</a></li>
-							<li><a href="#none" title="바로가기">FAQ&#146;s</a></li>
-						</ul>
-					</li>
-					<li>
-						<div>Trekking</div>
-						<ul>
-							<li><a href="#none" title="바로가기">Everest Region</a></li>
-							<li><a href="#none" title="바로가기">Annapurna Region</a></li>
-							<li><a href="#none" title="바로가기">Langtang Region</a></li>
-							<li><a href="#none" title="바로가기">Manaslu Region</a></li>
-							<li><a href="#none" title="바로가기">Other Region</a></li>
-						</ul>
-					</li>
-					<li>
-						<div>Activities</div>
-						<ul>
-							<li><a href="#none" title="바로가기">Trekking</a></li>
-							<li><a href="#none" title="바로가기">Family Holidays</a></li>
-							<li><a href="#none" title="바로가기">Peak Climbing</a></li>
-							<li><a href="#none" title="바로가기">Rafting</a></li>
-							<li><a href="#none" title="바로가기">Expedition</a></li>
-							<li><a href="#none" title="바로가기">Canyoning</a></li>
-							<li><a href="#none" title="바로가기">Cultural Tours</a></li>
-							<li><a href="#none" title="바로가기">Day Tour</a></li>
-							<li><a href="#none" title="바로가기">Jungle Safari</a></li>
-							<li><a href="#none" title="바로가기">Special Festival Trek</a></li>
-						</ul>
-					</li>
-					<li>
-						<div>Contact Information</div>
-						<ul>
-							<li class="map"><a href="#none" title="구글 지도로 이동">203 West Pineknoll Drive Bristow, VA
-									20136</a></li>
-							<li class="tel"><a href="tel:01411234567" title="전화걸기">+014 1 1234567, +014 1 1234567</a>
-							</li>
-							<li class="mail"><a href="mailto:info@templatesjungle.com" title="이메일 보내기">info@templatesjungle.com</a></li>
-						</ul>
-						<div class="sns">
-							<a class="twt" href="#none"><span class="blind">TrekParadise 트위터로 이동</span></a>
-							<a class="face" href="#none"><span class="blind">TrekParadise 페이스북으로 이동</span></a>
-							<a class="google" href="#none"><span class="blind">TrekParadise 구글플러스로 이동</span></a>
-							<a class="pin" href="#none"><span class="blind">TrekParadise 핀터레스트로 이동</span></a>
-							<a class="insta" href="#none"><span class="blind">TrekParadise 인스타그램으로 이동</span></a>
-						</div>
-					</li>
-				</ul>
+				<div>
+					<div>Quick Link</div>
+					<ul>
+						<li><a href="#none">Company</a></li>
+						<li><a href="#none">Our Team</a></li>
+						<li><a href="#none">Testimonials</a></li>
+						<li><a href="#none">Contact Us</a></li>
+						<li><a href="#none">FAQ&#146;s</a></li>
+					</ul>
+				</div>
+				<div>
+					<div>Trekking</div>
+					<ul>
+						<li><a href="#none">Everest Region</a></li>
+						<li><a href="#none">Annapurna Region</a></li>
+						<li><a href="#none">Langtang Region</a></li>
+						<li><a href="#none">Manaslu Region</a></li>
+						<li><a href="#none">Other Region</a></li>
+					</ul>
+				</div>
+				<div class="resize">
+					<div>Activities</div>
+					<ul class="col02">
+						<li><a href="#none">Trekking</a></li>
+						<li><a href="#none">Family Holidays</a></li>
+						<li><a href="#none">Peak Climbing</a></li>
+						<li><a href="#none">Rafting</a></li>
+						<li><a href="#none">Expedition</a></li>
+						<li><a href="#none">Canyoning</a></li>
+						<li><a href="#none">Cultural Tours</a></li>
+						<li><a href="#none">Day Tour</a></li>
+						<li><a href="#none">Jungle Safari</a></li>
+						<li><a href="#none">Special Festival Trek</a></li>
+					</ul>
+				</div>
+				<div class="resize">
+					<div>Contact Information</div>
+					<ul>
+						<li class="map"><a href="#none" title="구글 지도로 이동">203 West Pineknoll Drive Bristow, VA 20136</a></li>
+						<li class="tel"><a href="tel:01411234567" title="전화걸기">+014 1 1234567, +014 1 1234567</a></li>
+						<li class="mail"><a href="mailto:info@templatesjungle.com" title="이메일 보내기">info@templatesjungle.com</a></li>
+					</ul>
+					<div class="sns">
+						<a class="twt" href="#none" onclick="openModal('modal02')"><span class="blind">TrekParadise 트위터로 이동</span></a>
+						<a class="face" href="#none" onclick="openModal('modal03')"><span class="blind">TrekParadise 페이스북으로 이동</span></a>
+						<a class="google" href="#none"><span class="blind">TrekParadise 구글플러스로 이동</span></a>
+						<a class="pin" href="#none"><span class="blind">TrekParadise 핀터레스트로 이동</span></a>
+						<a class="insta" href="#none"><span class="blind">TrekParadise 인스타그램으로 이동</span></a>
+					</div>
+				</div>
 			</div>
 			<div class="footerCopy">
 				<span>Copyright © 2021. <strong>Templates Jungle.</strong> All rights reserved.</span>
@@ -601,6 +603,37 @@
 			</div>
 		</div>
 	</footer>
+	<div class="dim"></div>
+	<div class="popupWrap" data-value="modal01">
+		<div class="popupTop"><a href="#none" class="btnClose" onclick="closeModal('modal01')"></a></div>
+		<div class="popupCont">
+			<div>
+				<div class="inputWrap">
+					<div class="tySearch">
+						<label for="search01" class="blind">검색창</label>
+						<input type="text" id="search01" class="inpSearch" name="search01" value="" placeholder="검색어를 입력하세요">
+						<button type="button" class="bntSm btnYl"><span class="blind">검색</span></button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="popupWrap" data-value="modal02">
+		<div class="popupTop"><a href="#none" class="btnClose" onclick="closeModal('modal02')"></a></div>
+		<div class="popupCont">
+			<div>
+				22222
+			</div>
+		</div>
+	</div>
+	<div class="popupWrap" data-value="modal03">
+		<div class="popupTop"><a href="#none" class="btnClose" onclick="closeModal('modal03')"></a></div>
+		<div class="popupCont">
+			<div>
+				33333
+			</div>
+		</div>
+	</div>
 </div>
 
 <script src="./assets/js/jquery-3.7.1.min.js"></script>
